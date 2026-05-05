@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, Sam1019</rights>
   <subtitle>I want a true love...</subtitle>
   <title>Sam1019's blog</title>
-  <updated>2026-05-05T01:37:46.660Z</updated>
+  <updated>2026-05-05T03:43:56.606Z</updated>
   <entry>
     <author>
       <name>Sam1019</name>
@@ -18,14 +18,14 @@
     <category term="学习" scheme="https://s-am1019.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     <category term="个人记录" scheme="https://s-am1019.github.io/tags/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95/"/>
     <content>
-      <![CDATA[<p>【本文章同步发表至<a href="https://www.luogu.com.cn/article/ydlntp9w">洛谷</a>】</p><h2 id="5-月-4-日"><a href="#5-月-4-日" class="headerlink" title="5 月 4 日"></a>5 月 4 日</h2><p>早上来改模拟赛，T1 赛时 95pts 实际上不是因为卡常，而是题面描述看错了，真实的 k 应当还要减一，改了结果 cwoi 机子又被卡常了，加了个快读还有一些神秘小优化就卡过了。T2 考试的时候脑子不太好，没想到用树状数组 or 线段树维护，其实是一道简单题。T3 依旧人类智慧，赛时怕超时没开太大，改大了一点就过了。</p><p>下午来做专题，<a href="https://www.luogu.com.cn/problem/P10482">这题</a>要在原来直接 DFS 的基础上加一点贪心，具体的是拿二进制数表状态 &amp; 每次优先填可放数少的。</p><h2 id="5-月-5-日"><a href="#5-月-5-日" class="headerlink" title="5 月 5 日"></a>5 月 5 日</h2><p>今天一天都在写专题。<a href="https://www.luogu.com.cn/problem/P1120">这题</a> DFS 暴搜就行，但要注意剪枝，最重要的四个点就是 1. 将棍子按长度从大到小排序 2. 如果当前剩余未填长度等于此根棍子的长度且无法填完就直接回溯，因为显然拿剩余的短棍子拼成一个这样的棍子不会更优 3. 如果当这根棍子都无法作为开头拼出第一根，那后面的短棍子也显然是不可以的 4. 预处理然后每次选择直接跳到下一个长度不同的棍子。</p>]]>
+      <![CDATA[<p>【本文章同步发表至<a href="https://www.luogu.com.cn/article/ydlntp9w">洛谷</a>】</p><h2 id="5-月-4-日"><a href="#5-月-4-日" class="headerlink" title="5 月 4 日"></a>5 月 4 日</h2><p>早上来改模拟赛，T1 赛时 95pts 实际上不是因为卡常，而是题面描述看错了，真实的 k 应当还要减一，改了结果 cwoi 机子又被卡常了，加了个快读还有一些神秘小优化就卡过了。T2 考试的时候脑子不太好，没想到用树状数组 or 线段树维护，其实是一道简单题。T3 依旧人类智慧，赛时怕超时没开太大，改大了一点就过了。</p><p>下午来做专题，<a href="https://www.luogu.com.cn/problem/P10482">这题</a>要在原来直接 DFS 的基础上加一点贪心，具体的是拿二进制数表状态 &amp; 每次优先填可放数少的。</p><h2 id="5-月-5-日"><a href="#5-月-5-日" class="headerlink" title="5 月 5 日"></a>5 月 5 日</h2><p>今天一天都在写专题。<a href="https://www.luogu.com.cn/problem/P1120">这题</a> DFS 暴搜就行，但要注意剪枝，最重要的四个点就是 1. 将棍子按长度从大到小排序 2. 如果当前剩余未填长度等于此根棍子的长度且无法填完就直接回溯，因为显然拿剩余的短棍子拼成一个这样的棍子不会更优 3. 如果当这根棍子都无法作为开头拼出第一根，那后面的短棍子也显然是不可以的 4. 预处理然后每次选择直接跳到下一个长度不同的棍子。<a href="https://www.luogu.com.cn/problem/P1731">这题</a>依旧 DFS 爆搜，有一个剪枝要注意：我们按按当前 r 计算剩余侧面积加上当前已经确定的面积，如果大于等于目前答案就直接返回。</p>]]>
     </content>
     <id>https://s-am1019.github.io/2026/05/04/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</id>
     <link href="https://s-am1019.github.io/2026/05/04/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/"/>
     <published>2026-05-04T01:00:00.000Z</published>
     <summary>Sam1019的训练日志</summary>
     <title>训练日志</title>
-    <updated>2026-05-05T01:37:46.660Z</updated>
+    <updated>2026-05-05T03:43:56.606Z</updated>
   </entry>
   <entry>
     <author>
